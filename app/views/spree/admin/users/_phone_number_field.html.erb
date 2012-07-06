@@ -1,0 +1,5 @@
+<%= f.field_container :phone_number do %>
+  <%= f.label :phone_number, t(:phone_number) %><br />
+  <%= f.email_field :phone_number %>
+  <%= error_message_on :user, :phone_number %>
+<% end %>
